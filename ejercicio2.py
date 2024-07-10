@@ -1,0 +1,6 @@
+print("Ejercicio 2")
+print("Suma de dos números: Escribe un programa que pida al usuario dos números y los sume.")
+num1=input("Por favor ingrese un número: ")
+num2=input("Por favor ingrese el segundo número: ")
+suma=int(num1)+int(num2)
+print(f"La suma de {num1} + {num2} = {str(suma)}")

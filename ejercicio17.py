@@ -1,0 +1,5 @@
+print("Ejercicio 17")
+print("Calculadora de índice de masa corporal (IMC): Escribe un programa que calcule el índice de masa corporal (IMC) a partir del peso y la altura introducidos por el usuario.")
+peso=float(input("Ingrese el peso de la persona en kg "))
+estatura=float(input("Ingrese la estatura en m "))
+print(f"El IMC de una persona con estatura {estatura} y peso {peso} es:\n"+str(peso/(estatura**2)))
